@@ -1,6 +1,7 @@
 import pytest
 from main import word_counter, find_top_words
 
+
 @pytest.fixture
 def words():
     return ['milk', 'banana', 'milk', 'fish', 'milk', 'banana', 'bread', 'milk', 'milk', 'bread']
@@ -24,8 +25,10 @@ def test_word_counter_fixture(words):
       "eight": 1, "nine": 1, "ten": 1})
 ])
 
+
 def test_word_counter_parametrize(input_data, expected_output):
     assert word_counter(input_data) == expected_output
+
 
 @pytest.fixture
 def word_counts():
@@ -35,4 +38,3 @@ def word_counts():
 def test_find_top_words(word_counts):
     expected_result = {"apple": 10, "banana": 5, "orange": 3, "pear": 2, "grape": 1}
     assert find_top_words(word_counts) == expected_result
-
