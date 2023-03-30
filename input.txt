@@ -1,0 +1,5 @@
+house, car, fish, computer, cat, fish, pencil, candy, 
+cat, table, chair, bike, candy, pizza, coffee, tea, chocolate, 
+milk, banana, fish, orange, cat, potato, chocolate, candy, 
+bread, butter, cheese, 
+egg, chocolate, fish, chocolate, cat, chocolate, candy, cat, ice cream, fish
