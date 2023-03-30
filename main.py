@@ -35,5 +35,5 @@ def main_function():
         for word, count in top_words.items():
             f.write(f"{word}-{count}\n")
 
-main_function()
 
+main_function()
