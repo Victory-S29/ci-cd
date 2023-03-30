@@ -1,0 +1,10 @@
+fish-5
+cat-5
+chocolate-5
+candy-4
+house-1
+car-1
+computer-1
+pencil-1
+table-1
+chair-1
