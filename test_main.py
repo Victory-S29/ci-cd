@@ -25,7 +25,6 @@ def test_word_counter_fixture(words):
       "eight": 1, "nine": 1, "ten": 1})
 ])
 
-
 def test_word_counter_parametrize(input_data, expected_output):
     assert word_counter(input_data) == expected_output
 
